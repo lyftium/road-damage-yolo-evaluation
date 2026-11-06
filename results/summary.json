@@ -1,0 +1,32 @@
+{
+  "val_images": 402,
+  "mAP50": 0.526,
+  "mAP50-95": 0.222,
+  "per_class_AP50": {
+    "pothole": 0.476,
+    "crack": 0.371,
+    "manhole": 0.731
+  },
+  "best_f1_threshold": {
+    "crack": {
+      "thr": 0.35,
+      "f1": 0.404,
+      "precision": 0.506,
+      "recall": 0.336
+    },
+    "manhole": {
+      "thr": 0.45,
+      "f1": 0.727,
+      "precision": 0.82,
+      "recall": 0.653
+    },
+    "pothole": {
+      "thr": 0.25,
+      "f1": 0.483,
+      "precision": 0.541,
+      "recall": 0.435
+    }
+  },
+  "missed": 564,
+  "false_alarms": 296
+}
