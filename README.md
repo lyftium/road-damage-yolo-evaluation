@@ -1,5 +1,7 @@
 # Road-damage YOLO evaluation
 
+Supporting methods exercise (not the industrial drawing-review line).
+
 I evaluated a small YOLO11n detector on public road-damage images, focusing on per-class AP, confidence-threshold selection, and error analysis rather than reporting one aggregate score.
 
 **Saved result:** mAP@50 **0.526** and mAP@50–95 **0.222** on **402 held-out images**. Manhole AP@50 was 0.731, compared with 0.476 for potholes and 0.371 for cracks.
